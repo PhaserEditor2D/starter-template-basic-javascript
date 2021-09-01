@@ -17,7 +17,19 @@ $ npm install
 $ npm run editor
 ```
 
-If the Phaser Editor 2D Core is globally installed, you can run:
+If you are in a remote environment (like the Gitpod.io IDE), then run the editor like this:
+
+```bash
+$ npm run editor-remote
+```
+
+If you want to see all the editor options, run:
+
+```bash
+$ npx phasereditor2d-launcher -help
+```
+
+If Phaser Editor 2D Core is globally installed, you can run:
 
 ```bash
 $ PhaserEditor2D -project .

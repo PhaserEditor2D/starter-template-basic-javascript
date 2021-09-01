@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://PhaserEditor2D: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@github.com/PhaserEditor2D/starter-template-basic-javascript.git"
+    "url": "git+https://github.com/PhaserEditor2D/starter-template-basic-javascript.git"
   },
   "keywords": [
     "phaser",
