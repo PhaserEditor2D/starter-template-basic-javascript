@@ -17,7 +17,7 @@ $ npm install
 $ npm run editor
 ```
 
-If you have the editor is globally installed, you can run:
+If the Phaser Editor 2D Core is globally installed, you can run:
 
 ```bash
 $ PhaserEditor2D -project .
