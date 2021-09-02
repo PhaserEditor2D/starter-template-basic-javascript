@@ -1,5 +1,7 @@
 # Basic JavaScript project template
 
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/PhaserEditor2D/starter-template-basic-javascript)
+
 This is a Phaser Editor 2D v3 project template.
 
 ## Configuration
