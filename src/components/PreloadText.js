@@ -12,7 +12,7 @@ class PreloadText extends UserComponent {
 
 		this.scene.load.on(Phaser.Loader.Events.PROGRESS, p => {
 
-			this.gameObject.text = (p * 100) + "%";
+			this.gameObject.text = Math.floor(p * 100) + "%";
 		});
 
 		/* END-USER-CTR-CODE */
