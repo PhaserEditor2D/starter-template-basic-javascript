@@ -4,26 +4,26 @@
 /* START OF COMPILED CODE */
 
 class PushOnClick extends UserComponent {
-	
+
 	constructor(gameObject) {
 		super(gameObject);
-		
+
 		this.gameObject = gameObject;
 		gameObject["__PushOnClick"] = this;
-		
+
 		/* START-USER-CTR-CODE */
 		// Write your code here.
 		/* END-USER-CTR-CODE */
 	}
-	
+
 	/** @returns {PushOnClick} */
 	static getComponent(gameObject) {
 		return gameObject["__PushOnClick"];
 	}
-	
+
 	/** @type {Phaser.GameObjects.Image} */
 	gameObject;
-	
+
 	/* START-USER-CODE */
 
 	awake() {
