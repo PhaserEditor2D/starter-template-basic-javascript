@@ -26,8 +26,5 @@
   "bugs": {
     "url": "https://github.com/PhaserEditor2D/starter-template-basic-javascript/issues"
   },
-  "homepage": "https://github.com/PhaserEditor2D/starter-template-basic-javascript#readme",
-  "dependencies": {
-    "phasereditor2d-launcher": "^3.30.0-beta.1"
-  }
+  "homepage": "https://github.com/PhaserEditor2D/starter-template-basic-javascript#readme"
 }
