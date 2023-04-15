@@ -4,7 +4,9 @@
     "settings": {
         "preloadPackFiles": [],
         "createMethodName": "editorCreate",
-        "sceneKey": "Level"
+        "sceneKey": "Level",
+        "borderWidth": 1280,
+        "borderHeight": 720
     },
     "displayList": [
         {
@@ -15,8 +17,8 @@
             "texture": {
                 "key": "dino"
             },
-            "x": 400,
-            "y": 218,
+            "x": 640,
+            "y": 288,
             "list": [
                 {
                     "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
@@ -42,8 +44,8 @@
             "id": "b2b3dbd5-2106-41fa-8a04-9b511e3401a9",
             "label": "text_1",
             "components": [],
-            "x": 400,
-            "y": 408,
+            "x": 640,
+            "y": 478,
             "originX": 0.5,
             "originY": 0.5,
             "text": "Phaser 3 + Phaser Editor 2D",
