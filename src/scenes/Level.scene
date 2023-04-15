@@ -11,14 +11,31 @@
             "type": "Image",
             "id": "7d5827fd-34f6-473f-90e0-b9424a51d5fa",
             "label": "dino",
-            "components": [
-                "PushOnClick"
-            ],
+            "components": [],
             "texture": {
                 "key": "dino"
             },
             "x": 400,
-            "y": 218
+            "y": 218,
+            "list": [
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "f10cc69a-251a-4bca-81de-f36affc5660b",
+                    "label": "onPointerDownScript",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": [
+                        {
+                            "prefabId": "0e39177a-6e19-4b56-a7c2-2360a2e41505",
+                            "id": "a497f179-61d6-4cc9-9147-dca543fe034d",
+                            "label": "pushActionScript",
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                }
+            ]
         },
         {
             "type": "Text",
@@ -27,9 +44,12 @@
             "components": [],
             "x": 400,
             "y": 408,
+            "originX": 0.5,
+            "originY": 0.5,
             "text": "Phaser 3 + Phaser Editor 2D",
             "fontFamily": "Arial",
-            "fontSize": "30px"
+            "fontSize": "30px",
+            "list": []
         }
     ],
     "plainObjects": [],
@@ -37,6 +57,6 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 2
+        "version": 3
     }
 }

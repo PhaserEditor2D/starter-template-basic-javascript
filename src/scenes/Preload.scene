@@ -21,19 +21,8 @@
             "x": 400,
             "y": 219,
             "scaleX": 0.5915891440784282,
-            "scaleY": 0.5915891440784282
-        },
-        {
-            "type": "Text",
-            "id": "2ce42443-5227-4c9b-b498-e81f9a21cde3",
-            "label": "progress",
-            "components": [
-                "PreloadText"
-            ],
-            "x": 400,
-            "y": 349,
-            "text": "0%",
-            "fontSize": "30px"
+            "scaleY": 0.5915891440784282,
+            "list": []
         }
     ],
     "plainObjects": [],
@@ -41,6 +30,6 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 2
+        "version": 3
     }
 }
