@@ -1,4 +1,6 @@
+
 // You can write more code here
+
 /* START OF COMPILED CODE */
 
 class SpriteScriptNode extends ScriptNode {
@@ -7,17 +9,23 @@ class SpriteScriptNode extends ScriptNode {
 		super(parent);
 
 		/* START-USER-CTR-CODE */
-        // Write your code here.
-        /* END-USER-CTR-CODE */
+		// Write your code here.
+		/* END-USER-CTR-CODE */
 	}
 
 	/* START-USER-CODE */
-    get gameObject() {
-        return super.gameObject;
-    }
+
+	/**
+	 * @type {Phaser.GameObjects.Sprite}
+	 */
+	get gameObject() {
+
+		return super.gameObject;
+	}
+
 	/* END-USER-CODE */
 }
 
 /* END OF COMPILED CODE */
-// You can write more code here
 
+// You can write more code here

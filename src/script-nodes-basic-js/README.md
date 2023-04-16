@@ -1,5 +1,5 @@
 # JavaScript version of the `script-nodes-basic` project
 
-The content of this repo is created by an automatic process of compiling the [script-nodes-basic](../script-nodes-basic/) project to JavaScript.
+The JavaScript version of the [Basic Script Node](https://github.com/PhaserEditor2D/script-nodes-basic) project.
 
-Read the original project for documentation.
+Go to the original project for documentation.
