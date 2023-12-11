@@ -1,4 +1,4 @@
-class ScriptNode {
+declare class ScriptNode {
     private _scene;
     private _gameObject?;
     private _parent;
@@ -17,47 +17,47 @@ class ScriptNode {
     protected destroy(): void;
 }
 
-class AlertActionScript extends ScriptNode {
+declare class AlertActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     message: string;
     execute(...args: any[]): void;
 }
 
-class CallbackActionScript extends ScriptNode {
+declare class CallbackActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     callback: (...args: any[]) => void;
     execute(...args: any[]): void;
 }
 
-class ConsoleLogActionScript extends ScriptNode {
+declare class ConsoleLogActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     message: string;
     execute(...args: any[]): void;
 }
 
-class DestroyActionScript extends ScriptNode {
+declare class DestroyActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     execute(...args: any[]): void;
 }
 
-class EmitEventActionScript extends ScriptNode {
+declare class EmitEventActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     eventName: string;
     eventEmitter: "game.events" | "scene.events" | "scene.loader" | "scene.input" | "scene.input.keyboard" | "scene.anims" | "gameObject";
     execute(...args: any[]): void;
 }
 
-class ExecActionScript extends ScriptNode {
+declare class ExecActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     targetAction: ScriptNode;
     execute(...args: any[]): void;
 }
 
-class OnAwakeScript extends ScriptNode {
+declare class OnAwakeScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
 }
 
-class OnEventScript extends ScriptNode {
+declare class OnEventScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     eventName: string;
     eventEmitter: "game.events" | "scene.events" | "scene.loader" | "scene.input" | "scene.input.keyboard" | "scene.anims" | "scene.physics.world" | "gameObject";
@@ -65,12 +65,12 @@ class OnEventScript extends ScriptNode {
     awake(): void;
 }
 
-class OnPointerDownScript extends OnEventScript {
+declare class OnPointerDownScript extends OnEventScript {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     awake(): void;
 }
 
-class RootScript extends ScriptNode {
+declare class RootScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     key: string;
     /**
@@ -101,18 +101,18 @@ class RootScript extends ScriptNode {
     protected awake(): void;
 }
 
-class SpriteScript extends ScriptNode {
+declare class SpriteScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     get gameObject(): Phaser.GameObjects.Sprite;
 }
 
-class StartSceneActionScript extends ScriptNode {
+declare class StartSceneActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     sceneKey: string;
     execute(...args: any[]): void;
 }
 
-class UserComponent {
+declare class UserComponent {
     /**
      * @param gameObject The entity.
      */

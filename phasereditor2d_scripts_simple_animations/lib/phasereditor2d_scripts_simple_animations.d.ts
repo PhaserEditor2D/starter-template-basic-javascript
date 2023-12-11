@@ -1,4 +1,4 @@
-class DelayConfigComp {
+declare class DelayConfigComp {
     constructor(gameObject: any);
     static getComponent(gameObject: any): DelayConfigComp;
     private gameObject;
@@ -6,7 +6,7 @@ class DelayConfigComp {
     static getDelay(obj: any, defaultValue: number): number;
 }
 
-class DurationConfigComp {
+declare class DurationConfigComp {
     constructor(gameObject: any);
     static getComponent(gameObject: any): DurationConfigComp;
     private gameObject;
@@ -14,7 +14,7 @@ class DurationConfigComp {
     static getDuration(obj: any, defaultValue: number): number;
 }
 
-class EaseConfigComp {
+declare class EaseConfigComp {
     constructor(gameObject: any);
     static getComponent(gameObject: any): EaseConfigComp;
     private gameObject;
@@ -22,25 +22,25 @@ class EaseConfigComp {
     static getEase(obj: any, defaultValue: string): string;
 }
 
-class FadeActionScript extends ScriptNode {
+declare class FadeActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     fadeDirection: "FadeIn" | "FadeOut";
     execute(...args: any[]): void;
 }
 
-class MoveInSceneActionScript extends ScriptNode {
+declare class MoveInSceneActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     from: "LEFT" | "RIGHT" | "TOP" | "BOTTOM" | "NONE";
     execute(...args: any[]): void;
 }
 
-class MoveOutSceneActionScript extends ScriptNode {
+declare class MoveOutSceneActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     to: "LEFT" | "RIGHT" | "TOP" | "BOTTOM" | "NONE";
     execute(...args: any[]): void;
 }
 
-class PushActionScript extends ScriptNode {
+declare class PushActionScript extends ScriptNode {
     constructor(parent: ScriptNode | Phaser.GameObjects.GameObject | Phaser.Scene);
     private _executing;
     execute(args?: any): void;
